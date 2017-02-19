@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+img{
+  max-width: 100%;
+}
+
 /*---Universal Styles---*/
 body {
   color: #6C7A89;
@@ -83,9 +87,9 @@ a:hover {
   text-align:center;
 }
 
-.logo {
-height:5%;
-width: auto;
+.logo{
+    width: 200px;
+    margin: auto;
 }
 
 nav{
