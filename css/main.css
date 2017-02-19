@@ -1,0 +1,133 @@
+/*---Table of Contents---*/
+1. Reset
+2. Universal Styles
+3. ...
+
+/**/
+
+/*---This is the reset---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*---Universal Styles---*/
+body {
+  color: #6C7A89;
+  font-family: 'Arimo' sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lobster', cursive;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #22313F;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-style: italic;
+  color: #67809F;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+section, footer {
+  padding: 2vh; 2vw;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.feature {
+  background-color: #89C4F4;
+}
+
+.centered {
+  text-align: center;
+}
+
+.white-box {
+  background-color: white;
+  padding: 5%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+a:hover {
+  color: black
+}
+
+/*---Header---*/
+.top-banner {
+  min-height: 100vh;
+  background-image: url(../images/g.gif);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  text-align:center;
+}
+
+.logo {
+height:5%;
+width: auto;
+}
+
+nav{
+  padding: 1%;
+}
+
+nav a{
+  font-size: 2rem;
+  padding: 1% 5%;
+  display: inline-block;
+  font-style: 'Lobster', cursive;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.long-box {
+padding:5px;
+}
+/*---About---*/
+
+/*---Skills---*/
+
+
+/*---Experience---*/
+
+
+/*---Map---*/
+
+
+/*---Footer---*/
+nav {
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 0;
+}
+
+footer nav div.email a{
+  font-size: 2rem;
+}
