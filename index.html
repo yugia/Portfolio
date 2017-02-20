@@ -4,6 +4,8 @@
     <!-- Comment: this is the head where I will add my meta data and css links -->
     <title>Portfolio</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
       <!-- This is my Google Font -->
       <link href="https://fonts.googleapis.com/css?family=Arimo|Lobster" rel="stylesheet">
 
@@ -25,10 +27,10 @@
             </div>
             <nav>
               <div class="long-box">
-                <a href="">About</a>
-                <a href="">Skills</a>
-                <a href="">Experience</a>
-                <a href="">Contact</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
               </div>
             </nav>
         </header>
@@ -43,18 +45,18 @@
 
 </section>
   <!--This is the about me section where I will tell you how great I am-->
-    <section class="feature">
+    <section class="feature" id="about">
       <div class="centered white-box">
         <h2>About me</h2>
         <h4>A mid-20s chirpy individual who’s been to over 30+ countries and is described by those close to her as “eclectically quirky, sarcastically pun-ny, consistently smiley, impulsively adventurous, and blissfully easygoing".</h4>
       </div>
     </section>
 
-    <section class="grid">
+    <section class="grid" id="skills">
       <!-- This is My Skills section  -->
       <h2 class="centered col-12">My Skills</h2>
 
-      <div class="col-4">
+      <div class="col-4_md-6_sm-12">
         <h3>
           <i class="fa fa-leaf" aria-hidden="true"></i> Eating
         </h3>
@@ -62,35 +64,35 @@
 
       </div>
 
-      <div class="col-4">
+      <div class="col-4_md-6_sm-12">
         <h3>
           <i class="fa fa-leaf" aria-hidden="true"></i> Sleeping
         </h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div class="col-4">
+      <div class="col-4_md-6_sm-12">
         <h3>
           <i class="fa fa-leaf" aria-hidden="true"></i> Coding
         </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div class="col-4">
+      <div class="col-4_md-6_sm-12">
         <h3>
           <i class="fa fa-leaf" aria-hidden="true"></i>Chilling
         </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div class="col-4">
+      <div class="col-4_md-6_sm-12">
       <h3>
         <i class="fa fa-leaf" aria-hidden="true"></i> Drinking
       </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div class="col-4">
+      <div class="col-4_md-6_sm-12">
         <h3>
           <i class="fa fa-leaf" aria-hidden="true"></i> Twerking
         </h3>
@@ -98,12 +100,12 @@
       </div>
     </section>
 
-    <section class="no-padding">
+    <section class="no-padding map">
     <!-- Google map will go here -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14767.564034687113!2d114.151063179929!3d22.282118115326746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040064a31dd1bd%3A0x5007a73bdeccb552!2sCentral%2C+Hong+Kong!5e0!3m2!1sen!2sca!4v1487318356211" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </section>
 
-  <section class="centered">
+  <section class="centered" id="experience">
     <!-- This is My Experience section -->
     <h2 class="centered">My Experience</h2>
     <div class="grid-middle">
@@ -116,7 +118,7 @@
     </div>
 
     <div class="grid-middle">
-      <div class="col-4">
+      <div class="col-4_md">
         <h3>Lucky Water</h3>
         <h4>Role</h4>
       </div>
@@ -143,7 +145,7 @@
     </div>
   </section>
 
-  <footer class="feature">
+  <footer class="feature" id="contact">
     <!-- This is the footer with links to my social media -->
   <div>
     <h2>Get in touch</h2>

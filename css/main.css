@@ -81,8 +81,8 @@ a:hover {
 .top-banner {
   min-height: 100vh;
   background-image: url(../images/g.gif);
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: cover;
+  background-attachment:scroll;
   background-position: center;
   text-align:center;
 }
@@ -134,4 +134,14 @@ footer h2 {
 
 footer nav div.email a{
   font-size: 2rem;
+}
+
+@media (max-width: 600px){
+  section.grid {
+    color: pink;
+  }
+  .map {
+    display: none;
+  }
+
 }
